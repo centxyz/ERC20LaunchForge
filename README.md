@@ -26,7 +26,7 @@ With TokenForgeMax, you get a lightweight tool that stays out of your way.
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/harutosati/TokenForgeMax.git`
+1. Clone the repository: `git clone https://github.com/centxyz/TokenForgeMax.git`
 2. Install required dependencies: `pip install -r requirements.txt`
 
 ## Configuration
@@ -42,4 +42,4 @@ Pull requests and issue reports are both welcome. Please read the existing code 
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/harutosati/TokenForgeMax/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/centxyz/TokenForgeMax/blob/main/LICENSE) file for details.
