@@ -1,45 +1,28 @@
-<!-- fallback_TokenForgeMax_20260901095549_68665 -->
-
 # TokenForgeMax
 
-TokenForgeMax is a Real-Time Transaction Processing Engine with High-Performance Auto-Scaling architecture for optimized cryptocurrency transaction management and validation.
+TokenForgeMax is a small TypeScript command-line starter that runs a deterministic in-memory processing task and reports the result as JSON-compatible data. It is a foundation for further implementation, not a production blockchain service.
 
-With TokenForgeMax, you get a lightweight tool that stays out of your way.
+## Install
 
-**What you get**
+```bash
+git clone https://github.com/centxyz/TokenForgeMax.git
+cd TokenForgeMax
+npm install
+npm run build
+```
 
-- TokenForgeMax is a Real-Time Transaction
-- Processing Engine with High-Performance Auto-Scaling
-- architecture for optimized cryptocurrency transaction
+## Run
 
-## Key Features
+```bash
+npm start -- --verbose
+```
 
-- TokenForgeMax is a Real-Time Transaction
-- Processing Engine with High-Performance Auto-Scaling
-- architecture for optimized cryptocurrency transaction
+## Test
 
-## Technology Stack
-
-- python
-- python framework (Flask/Django/FastAPI or equivalent)
-- Pytest for testing
-
-## Installation
-
-1. Clone the repository: `git clone https://github.com/centxyz/TokenForgeMax.git`
-2. Install required dependencies: `pip install -r requirements.txt`
-
-## Configuration
-
-To configure TokenForgeMax, modify the settings in the configuration file. Options include:
-- **DEBUG**: Enable or disable debug mode.
-- **ALLOWED_HOSTS**: Set allowed hostnames.
-- **DATABASES**: Configure database settings.
-
-## Contributing
-
-Pull requests and issue reports are both welcome. Please read the existing code style before submitting.
+```bash
+npm test
+```
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/centxyz/TokenForgeMax/blob/main/LICENSE) file for details.
+MIT
