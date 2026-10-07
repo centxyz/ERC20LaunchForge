@@ -1,14 +1,14 @@
-# TokenForgeMax
+# ERC20LaunchForge
 
-TokenForgeMax turns a validated JSON token specification into a self-contained ERC-20 Solidity contract and deterministic build manifest. Generated contracts support standard transfers and allowances, ownership transfer, and optional mint, burn, and pause controls. The CLI can also compile the generated source through [SolidityStackDiamond](https://github.com/centxyz/SolidityStackDiamond).
+ERC20LaunchForge turns a validated JSON token specification into a self-contained ERC-20 Solidity contract and deterministic build manifest. Generated contracts support standard transfers and allowances, ownership transfer, and optional mint, burn, and pause controls. The CLI can also compile the generated source through [SolcQueue](https://github.com/centxyz/SolcQueue).
 
 It generates and compiles source; it never accepts private keys or deploys contracts.
 
 ## Install
 
 ```bash
-git clone https://github.com/centxyz/TokenForgeMax.git
-cd TokenForgeMax
+git clone https://github.com/centxyz/ERC20LaunchForge.git
+cd ERC20LaunchForge
 npm install
 npm run build
 ```
@@ -36,7 +36,7 @@ Generate source and a manifest:
 npm start -- --input token.json --output ./artifacts
 ```
 
-To include compiled ABI and bytecode, start SolidityStackDiamond and add:
+To include compiled ABI and bytecode, start SolcQueue and add:
 
 ```bash
 npm start -- --input token.json --output ./artifacts --compiler http://localhost:3000
