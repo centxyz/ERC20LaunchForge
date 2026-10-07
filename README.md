@@ -53,3 +53,9 @@ npm test
 ## License
 
 MIT © cent
+
+## Current limitations
+
+- Generated source still requires independent review, testing, and security analysis before deployment.
+- Optional ownership, minting, burning, and pausing controls introduce governance and trust considerations.
+- The tool does not manage keys, deploy contracts, or guarantee token value or regulatory compliance.
